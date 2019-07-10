@@ -16,9 +16,7 @@ data class Line(
 class RecyclerDivider(val marginItem: Int, val line: Line): RecyclerView.ItemDecoration() {
 
     val paint = Paint()
-
-
-
+    
     init {
         paint.color = line.color
     }
